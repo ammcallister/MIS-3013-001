@@ -30,9 +30,27 @@ namespace Variables_example
 
             Console.WriteLine(fullName + " has the favorite number of " + favoriteNumber
                                 + "\nwhich equates to a crazy number of " + crazyNumber);
-        
-            
+
+
             // MAKE IT DYNAMIC
+            Console.WriteLine("Please enter your first name: >>");
+            firstName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your last name: >>");
+            lastName = Console.ReadLine();
+
+            Console.WriteLine("Please enter your favoirte number: >>");
+            string favoriteNumberAsString = Console.ReadLine();
+            favoriteNumber = Convert.ToInt32(favoriteNumberAsString);
+
+            fullName = firstName + " " + lastName;
+            //favoriteNumber = Convert.ToInt32(Console.ReadLine());
+
+
+            Console.WriteLine(fullName + " has the favorite number of " + favoriteNumber
+                              + "\nwhich equates to a crazy number of " + crazyNumber);
+
+            //Console.WriteLine($"{fullName} has the favorite number of {favoriteNumber} \nwhich equates to a crazy number of {crazyNumber}");
 
             Console.ReadKey();
          
