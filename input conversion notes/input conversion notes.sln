@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "input conversion notes", "input conversion notes\input conversion notes.csproj", "{0F8E70AC-D8E9-45EE-8CAE-A19FC1D53425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F8E70AC-D8E9-45EE-8CAE-A19FC1D53425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8E70AC-D8E9-45EE-8CAE-A19FC1D53425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8E70AC-D8E9-45EE-8CAE-A19FC1D53425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8E70AC-D8E9-45EE-8CAE-A19FC1D53425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EDD387D-5129-409B-BFFE-372AF11CF4A4}
+	EndGlobalSection
+EndGlobal
