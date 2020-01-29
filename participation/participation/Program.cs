@@ -24,9 +24,7 @@ namespace participation
             
             String headsOrTails = Console.ReadLine();
 
-            
-
-            //...........................
+            //IF STATEMENT TO ASSIGN USER INPUT STRING TO AN INT OF 1 OR 2_______________________________________________
             if (headsOrTails == "heads")
             {
                 userInput = 0;
@@ -35,9 +33,7 @@ namespace participation
             {
                 userInput = 1;
             }
-
-            //...........................
-
+            //IF TO FIND WHAT THE RESULTS WERE BASED ON THE RAND_______________________________________________
             if (rnd == 0)
            {
                 result = "heads";
@@ -46,7 +42,7 @@ namespace participation
             {
                 result = "tails";
             }
-            
+            //IF TO SEE IF RESULTS MATCH INPUT_______________________________________________
             if (userInput ==rnd)
             {
                 winFail = "Congrats! you won!";
