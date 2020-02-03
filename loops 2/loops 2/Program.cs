@@ -23,6 +23,24 @@ namespace loops_2
 
             }
 
+
+            double sum = 0;
+            string answer;
+
+
+            do
+
+            {
+                Console.WriteLine("please give us a # to ass >>");
+                int number = Convert.ToInt32(Console.ReadLine());
+                //sum = sum + number; is same as 
+                sum += number;
+
+            } while (true);
+
+
+
+
             Console.ReadKey();
 
 
