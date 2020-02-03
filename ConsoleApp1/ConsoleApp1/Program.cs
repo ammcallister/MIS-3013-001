@@ -59,7 +59,7 @@ namespace ConsoleApp1
                 }
                 else
                 {
-                    winFail = "Sorry, you lost.";
+                    winFail = "Sorry, you lost. Guess again...";
                 }
 
 
