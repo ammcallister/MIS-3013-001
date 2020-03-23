@@ -13,6 +13,9 @@ namespace ConsoleApp2
             Console.WriteLine("Please input an animal. Acceptable animals are 'cow' 'cat' and 'dog' >>");
             string animal = Console.ReadLine();
 
+            Console.WriteLine($"The {animal} says {speak(animal)}");
+                        
+            Console.ReadKey();
         }
 
 
