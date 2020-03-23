@@ -14,36 +14,29 @@ namespace loops_2
 
             Console.WriteLine("What number do you want to count up to? >>");
             int threshold = Convert.ToInt32(Console.ReadLine());
-            
-            
+                        
             //could also use < 100 
             for (int i = 1; i <= threshold; i++)
             {
                 Console.WriteLine(i + " ");
 
             }
-
-
+            
             double sum = 0;
             string answer;
-
-
+            
             do
 
             {
-                Console.WriteLine("please give us a # to ass >>");
+                Console.WriteLine("please give us a # to >>");
                 int number = Convert.ToInt32(Console.ReadLine());
                 //sum = sum + number; is same as 
                 sum += number;
-
-            } while (true);
-
-
-
-
+                }
+            while (true);
+                                    
             Console.ReadKey();
 
-
-        }
+            }
     }
 }
