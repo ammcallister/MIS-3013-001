@@ -8,6 +8,14 @@ namespace Classes_2_Toys_Alex_McAllister
 {
     class ToyBox
     {
+        public List<Toy> Toys;
+
+
+
+        public ToyBox()
+        {
+            Toys = new List<Toy>();
+        }
 
 
     }
