@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2B228D8B-F29D-4F25-B40F-542EBB13514E}</ProjectGuid>
+    <ProjectGuid>{84675C8D-9F85-4F72-986E-F322768F7178}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Classes_Part.Student1</RootNamespace>
-    <AssemblyName>Classes_Part.Student1</AssemblyName>
+    <RootNamespace>Classes_2_Toys_Alex_McAllister</RootNamespace>
+    <AssemblyName>Classes 2 Toys Alex McAllister</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Toy.cs" />
+    <Compile Include="ToyBox.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
